@@ -35,13 +35,13 @@ def street_menu(light_manager):
         print('===========================================')
 
         option = int(input('Insert option-> '))
-
+        
         # Get all street lights
         street_lights = light_manager.get_light_group(carla.LightGroup.Street)
 
         # Get a list of carla.Light objects
         lights = street_lights.lights
-
+        
         # Turn on/off
         if option == 0:
             is_on = light_manager.is_active(lights[0])
