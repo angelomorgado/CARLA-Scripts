@@ -1,3 +1,6 @@
+'''
+Changes the map from the default list of maps
+'''
 import carla
 
 if __name__ == "__main__":
@@ -11,8 +14,6 @@ if __name__ == "__main__":
 
     # Get the list of available maps
     available_maps = client.get_available_maps()
-
-    check = False
 
     while True:
         print('==============================')

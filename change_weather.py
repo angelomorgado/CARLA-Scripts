@@ -1,3 +1,6 @@
+'''
+Changes the weather of the simulation based on some presets
+'''
 import carla
 
 # List of weather presets
